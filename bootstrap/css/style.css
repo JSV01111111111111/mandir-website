@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Sevillana&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sevillana&display=swap');
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+
+/* color-plates */
+:root{
+
+    --primary:#176899;
+    --white:#fff;
+    --heading:#000;
+    --secondary:#e00b0a;
+}
+
+
+
+/* gloabl-classes */
+img {width: 100%;}
+.red{color: var(--secondary);}
+.padding-top-90{padding-top: 90px;}
+.padding-btm-90{padding-bottom: 90px;}
+body{font-family: "Roboto", sans-serif;}
+.logo img {width: 100%; max-width: 100px;}
+li {list-style: none;}
+a {text-decoration: none;}
+.global_btn { display: inline-block; font-family: "Montserrat", serif; font-size: 18px; text-transform: uppercase; background: var(--primary); padding: 15px 30px; color:var(--white); border-radius: 18px 0px 18px 0px; font-weight: 500;}
+.header {padding:15px 0px;}
+.header .navbar-nav {margin-right: 50px;}
+.header  .nav-link {font-size: 16px; color:var(--heading) !important;}
+.header  ul li  {padding: 0px 15px; font-family: "Montserrat", serif; font-weight: 600;}
+.header  ul li .nav-link {text-transform: uppercase; color: #333333 !important;}
+
+
+/* gloabl-fonts */
+h1 {font-size: 50px; font-weight: 700; color: var(--white); font-family: "Montserrat", serif; text-transform: uppercase;}
+h2 {font-size: 36px; font-weight: 700; font-family: "Montserrat", serif; text-transform: uppercase;}
+h3 {font-size: 28px; font-weight: 700; font-family: "Montserrat", serif; text-transform: uppercase;}
+h4 {font-size: 20px; font-weight: 700; font-family: "Montserrat", serif; text-transform: uppercase;}
+p{font-size: 16px; }
+
+
+/* start-banner */
+.banner { background: linear-gradient(90deg, rgb(23 104 153 / 90%) 100%, rgb(23 104 153 / 90%) 100%), url(../assests/homebanner.jpg); background-repeat: no-repeat; background-size: cover; background-repeat: no-repeat; padding: 140px 0px; border-radius: 0px 0px 40px 40px;}
+.banner::before {content: " "; background: var(--primary); width: 100%; height: 100%; }
+.banner p {color: var(--white); font-size: 20px; margin:20px 0px;} 
+
+.banner .review {max-width: 350px;}
+/* start-partners */
+.partners .main_box {padding: 30px; border:1px solid #efefef; border-radius: 20px;}
+.partners .main_box p {font-size: 22px;}
+
+.about .global_btn {margin-top: 10px;}
+
+
+.services_digital {background-color: #f3f3f3;}
+.services_digital .icon_box img {max-width: 70px;}
+.service_box {background-color: var(--white); padding: 30px; border-radius: 24px; margin-top: 30px;}
+.services_digital .icon_box {display: flex; justify-content: space-between;}
+.services_digital .icon_box  h2{ -webkit-text-stroke: 1px #e00b0a38;  font-size: 50px; color:var(--white);}
+
+
+/* what_we_offer */
+.what_we_offer { background: var(--primary);}
+.what_we_offer   h2 {color: var(--white); text-align: center;}
+.what_we_offer .serice_box {background: var(--white); padding: 30px; border-radius: 15px; margin-top: 30px;}
+.what_we_offer .serice_box .icon img {max-width: 60px;}
+.what_we_offer .serice_box .icon {display: flex; gap: 40px;}
+.what_we_offer .serice_box p {margin-top: 14px;}
+
+
+/* why_choose_us */
+.why_choose_us .image_whychoose {width: 100%; max-width: 500px;}
+
+
+/* cta */
+.cta {background: url(../assests/cta.png); background-repeat: no-repeat; background-size: cover;}
+.cta h2, .cta p {color: var(--white); text-align: center;}
+.cta .btn {width: 100%;}
+.cta .global_btn {background: var(--secondary); text-align: center;}
+
+
+
+.industries .indust_box .boxes {padding: 30px; border-radius: 15px; padding: 30px; margin-top: 24px; border: 1px solid #efefef;}
+
+
+.footer {background: var(--heading);}
+.footer p{color: #7c7c7c; margin-top: 20px;}
+.footer h4 {color: var(--white);}
+.footer_logo img {max-width: 120px;}
+.footer ul li  {padding: 5px 0px;}
+.footer ul li a {color: #7c7c7c;}
